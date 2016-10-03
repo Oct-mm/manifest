@@ -25,9 +25,7 @@
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display"  revision="cm-14.0-caf-8960" remote="github" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display"  revision="cm-14.0-caf-8974" remote="github" />
   <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display"  revision="cm-14.0-caf-8994" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display"  revision="cm-14.0-caf-8996" remote="github" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="staging/cm-14.0" remote="github" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media"  revision="cm-14.0" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display"  revision="cm-14.0-caf-8996" remote="github" />  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media"  revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media"  revision="cm-14.0-caf-8084" remote="github" />
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media"  revision="cm-14.0-caf-8916" remote="github" />
   <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media"  revision="cm-14.0-caf-8937" remote="github" />
@@ -48,7 +46,7 @@
   <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-14.0-caf" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-14.0" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-14.0" />
-
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-14.0" remote="github" />
   <!-- UBER TC's -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
