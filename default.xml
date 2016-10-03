@@ -24,10 +24,7 @@
            sync-j="4" />
 
 <!-- BEGIN OCTOS -->
-  <!--project path="build" name="platform_build" groups="pdk,tradefed" remote="to" revision="aosp-7.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project-->
-  <project name="platform_build" path="build" remote="to" revision="aosp-7.0"  >
+  <project path="build" name="platform_build" groups="pdk,tradefed" remote="to" revision="aosp-7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="to" revision="aosp-7.0" />
@@ -524,5 +521,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 <!-- END AOSP -->
-
+  
+  <include name="caf/caf_repos.xml" />
 </manifest>
