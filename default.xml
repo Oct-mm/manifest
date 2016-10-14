@@ -543,6 +543,6 @@
   <project name="toolchain/binutils"/>
 
   <!-- Paranoid Android additions -->
-  <include name="caf/caf-repos.xml" />
+  <include name="caf/caf_repos.xml" />
 
 </manifest>
