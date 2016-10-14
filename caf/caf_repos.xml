@@ -88,7 +88,6 @@
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/to" name="platform_vendor_to" remote="to" revision="aosp-7.0" />
 
   <!-- Darwin -->
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="darwin" remote="aosp" revision="refs/tags/android-7.0.0_r1" />
