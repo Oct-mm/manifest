@@ -94,7 +94,7 @@ The TO_OR variable allows the user to set the concurrent threads when builds (-j
 Initialize the Repositories
 
 cd ~/octos
-repo init -u https://github.com/Oct-mm/manifest.git -b aosp-7.0 && repo sync
+repo init -u https://github.com/Oct-mm/manifest.git -b master && repo sync
 This will initialize the new repository and begin the initial sync. This will take a while!
 
 Building the System
